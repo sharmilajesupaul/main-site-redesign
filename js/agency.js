@@ -29,3 +29,25 @@ $( "#blogAccordion" ).accordion({
   active: 2,
   collapsible: true
 });
+
+$('.blog-title').on('click', function () {
+	var icon = $(this).children('i')
+	icon.toggleClass('fa-plus').toggleClass('fa-minus');
+
+	if(icon.hasClass('fa-minus')){
+		icon.css('color', 'red');
+
+	}else{
+		icon.css('color', 'green')
+	}
+
+    // var isEnabled = $this.hasClass("fa-plus"); // Get toggle state
+    // if (isEnabled) {                           // Example
+    //     icon.addClass('fa-minus')
+    // } else {
+    //     icon.addClass('fa-plus')
+    // }
+});
+
+
+
