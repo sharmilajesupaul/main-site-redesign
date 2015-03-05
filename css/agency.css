@@ -867,3 +867,16 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #F76D83;
 }
+
+
+/* BLOG CSS */
+/*.blog-title {
+    position:relative;
+}  
+.blog-title:before {
+        position:absolute;
+        font-family: FontAwesome;
+        top:0;
+        left:-5px;
+        content: "<i class='fa fa-plus'></i>"; <--- this is your text. You can also use UTF-8 character codes as I do here
+    }*/

@@ -24,3 +24,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$( "#blogAccordion" ).accordion({
+  active: 2,
+  collapsible: true
+});
