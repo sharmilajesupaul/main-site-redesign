@@ -34,6 +34,13 @@ $('.blog-title').on('click', function () {
 	var icon = $(this).children('i')
 	icon.toggleClass('fa-plus').toggleClass('fa-minus');
 
+    $('.blog-title i').each(function (element, index) {
+        var $this = $(element);
+        if(!$this.hasClass('active')){
+           $this.removeClass('fa-minus');
+           $this.addClass('fa-plus');
+        }
+    });
 	if(icon.hasClass('fa-minus')){
 		icon.css('color', 'red');
 
