@@ -45,7 +45,7 @@ a.active {
     color: #fec503;
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -54,7 +54,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-}
+}*/
 
 .img-centered {
     margin: 0 auto;
@@ -261,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+/*header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -296,9 +296,9 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
-
+*/
 @media(min-width:768px) {
-    header .intro-text {
+/*    header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
     }
@@ -321,7 +321,7 @@ header .intro-text .intro-heading {
         line-height: 75px;
     }
 }
-
+*/
 section {
     padding: 100px 0;
 }
