@@ -36,7 +36,6 @@ $('.blog-title').on('click', function () {
 
 	if(icon.hasClass('fa-minus')){
 		icon.css('color', 'red');
-
 	}else{
 		icon.css('color', 'green')
 	}
